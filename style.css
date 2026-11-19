@@ -1,0 +1,33 @@
+.chat-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .voice-toggle {
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--accent);
+      border-radius: 6px;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    .mic-btn {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent);
+      border-radius: 8px;
+      padding: 0 0.75rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .mic-btn.listening {
+      background: #ef4444;
+      color: #fff;
+      border-color: #ef4444;
+      animation: pulse 1s infinite;
+    }
